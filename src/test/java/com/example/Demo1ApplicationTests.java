@@ -25,7 +25,7 @@ public class Demo1ApplicationTests {
 //	public void testRedis(){
 //		redisDao.setKey("name","xuzhigong");
 //		redisDao.setKey("age","23");
-//		System.out.println("-------分界线------------");
+//		System.out.println("-------分界线o------------");
 //		System.out.println(redisDao.getValue("name"));
 //		logger.info(redisDao.getValue("name"));
 //		logger.info(redisDao.getValue("age"));

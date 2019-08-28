@@ -73,7 +73,7 @@ public class UserControllerMybatis {
     public String testRedis(){
         redisDao.setKey("name","xuzhigong");
         redisDao.setKey("age","23");
-        System.out.println("-------分界线o------------");
+        System.out.println("-------分界线o0------------");
         System.out.println(redisDao.getValue("name"));
         return "redis test: "+redisDao.getValue("name");
     }
