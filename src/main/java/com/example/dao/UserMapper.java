@@ -10,7 +10,7 @@ import java.util.List;
  */
 @Mapper
 public interface UserMapper {
-    @Insert("insert into user(name, password) values(#{name}, #{password})")
+    @Insert("insert into user(name, password) values(#{username}, #{password})")
     int add(@Param("username") String username, @Param("password") String password);
 
     @Update("update user set username = #{username}, password = #{password} where id = #{id}")

@@ -13,21 +13,22 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class Demo1ApplicationTests {
 
-	public static Logger logger= LoggerFactory.getLogger(Demo1ApplicationTests.class);
+
 	@Test
 	public void contextLoads() {
 	}
 
-	@Autowired
-	RedisDAO redisDao;
-	@Test
-	public void testRedis(){
-		redisDao.setKey("name","xuzhigong");
-		redisDao.setKey("age","23");
-		System.out.println("-------分界线------------");
-		System.out.println(redisDao.getValue("name"));
-		logger.info(redisDao.getValue("name"));
-		logger.info(redisDao.getValue("age"));
-	}
+//	public static Logger logger= LoggerFactory.getLogger(Demo1ApplicationTests.class);
+//	@Autowired
+//	RedisDAO redisDao;
+//	@Test
+//	public void testRedis(){
+//		redisDao.setKey("name","xuzhigong");
+//		redisDao.setKey("age","23");
+//		System.out.println("-------分界线------------");
+//		System.out.println(redisDao.getValue("name"));
+//		logger.info(redisDao.getValue("name"));
+//		logger.info(redisDao.getValue("age"));
+//	}
 
 }
